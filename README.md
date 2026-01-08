@@ -1,27 +1,26 @@
-# ✨ Snippet2README - AI-Powered README Generator
+Snippet2README - AI-Powered README Generator
 
 Transform minimal project descriptions into comprehensive, professional README files using AI.
 
-## 🎯 Overview
+ Overview
 
 **Snippet2README** is an intelligent CLI tool that takes a simple one-sentence project description and generates a complete, well-structured README.md file. Perfect for developers who want to save time on documentation while maintaining professional standards.
-
-### The Problem
+The Problem
 Writing good README files is time-consuming. You want to focus on coding, not formatting documentation.
 
-### The Solution
+The Solution
 Describe your project in one sentence → Get a production-ready README in seconds.
 
-## ✨ Features
+ Features
 
-- 🤖 **AI-Powered Generation** - Uses OpenAI GPT-4o-mini for intelligent content creation
-- 💬 **Interactive CLI** - User-friendly prompts guide you through the process
-- 🔍 **Smart File Scanning** - Automatically detects your tech stack from project files
-- 📝 **Professional Structure** - Generates Title, Description, Features, Installation, Usage, and more
-- 🎨 **Clean Markdown** - Output is properly formatted and ready to commit
-- ⚙️ **Flexible Usage** - Use interactively or programmatically in your scripts
-- 🔐 **Secure** - API keys stored safely in .env files
-- 🚀 **Fast & Cheap** - Uses efficient gpt-4o-mini model
+   **AI-Powered Generation** - Uses OpenAI GPT-4o-mini/ollama for intelligent content creation
+   **Interactive CLI** - User-friendly prompts guide you through the process
+   **Smart File Scanning** - Automatically detects your tech stack from project files
+   **Professional Structure** - Generates Title, Description, Features, Installation, Usage, and more
+   **Clean Markdown** - Output is properly formatted and ready to commit
+   **Flexible Usage** - Use interactively or programmatically in your scripts
+   **Secure** - API keys stored safely in .env files
+   **Fast & Cheap** - Uses efficient gpt-4o-mini/ollama model
 
 ## 🛠 Tech Stack
 
@@ -70,7 +69,7 @@ OPENAI_API_KEY=sk-your-actual-api-key-here
 
 > **Get your API key:** Visit [OpenAI API Keys](https://platform.openai.com/api-keys)
 
-## 🚀 Usage
+ Usage
 
 ### Interactive Mode (Recommended)
 
@@ -90,7 +89,7 @@ You'll be asked:
 **Example:**
 
 ```
-✨ Snippet2README - AI-Powered README Generator
+ Snippet2README - AI-Powered README Generator
 ============================================================
 
 ? What is your project name? AmazonPriceScraper
@@ -99,9 +98,9 @@ You'll be asked:
 ? What license do you want to use? MIT
 ? Scan current directory for project files? Yes
 
-🤖 Generating README with gpt-4o-mini...
-✅ README.md generated successfully!
-📄 Saved to: README.md
+ Generating README with gpt-4o-mini/ollama...
+ README.md generated successfully!
+ Saved to: README.md
 ```
 
 ### Command-Line Mode
@@ -135,7 +134,7 @@ readme = generator.generate_readme(
 generator.save_readme(readme, directory=".")
 ```
 
-## 📖 Example Output
+ Example Output
 
 **Input:**
 ```
@@ -151,7 +150,7 @@ Project Name: "AmazonPriceScraper"
 - Configuration details
 - License information
 
-## ⚙️ Configuration
+ Configuration
 
 ### Environment Variables
 
@@ -164,17 +163,17 @@ Project Name: "AmazonPriceScraper"
 
 Edit the `_get_system_prompt()` method in [snippet2readme.py](snippet2readme.py) to customize the AI's behavior and output structure.
 
-## 🎓 Resume-Worthy Skills Demonstrated
+ Resume-Worthy Skills Demonstrated
 
 This project showcases:
-- ✅ **AI Integration** - Working with external APIs (OpenAI)
-- ✅ **CLI Development** - Creating user-friendly command-line tools
-- ✅ **File I/O & Automation** - Scanning directories and generating files
-- ✅ **API Security** - Safe handling of API keys with environment variables
-- ✅ **JSON Processing** - Working with API responses
-- ✅ **Developer Tools** - Creating utilities that provide immediate value
+ **AI Integration** - Working with external APIs (OpenAI)
+ **CLI Development** - Creating user-friendly command-line tools
+ **File I/O & Automation** - Scanning directories and generating files
+ **API Security** - Safe handling of API keys with environment variables
+ **JSON Processing** - Working with API responses
+ **Developer Tools** - Creating utilities that provide immediate value
 
-## 🔮 Future Enhancements
+ Future Enhancements
 
 - [ ] Support for Ollama (local, free AI models)
 - [ ] Template customization system
@@ -184,25 +183,17 @@ This project showcases:
 - [ ] Analysis of existing code files to extract features automatically
 - [ ] Support for generating other documentation (CONTRIBUTING.md, CODE_OF_CONDUCT.md)
 
-## 🤝 Contributing
+ Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
 - Suggest new features
 - Submit pull requests
 
-## 📄 License
+ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
 
-- OpenAI for the GPT API
-- The Python community for excellent libraries
-- All developers who believe good documentation matters
 
----
 
-**Made with ❤️ by developers, for developers**
-
-*Stop spending hours on README files. Let AI do the heavy lifting while you focus on code.*
