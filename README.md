@@ -22,7 +22,7 @@ Describe your project in one sentence → Get a production-ready README in secon
    **Secure** - API keys stored safely in .env files
    **Fast & Cheap** - Uses efficient gpt-4o-mini/ollama model
 
-## 🛠 Tech Stack
+ Tech Stack
 
 - **Python 3.8+**
 - **OpenAI API** (GPT-4o-mini)
@@ -31,7 +31,7 @@ Describe your project in one sentence → Get a production-ready README in secon
   - `python-dotenv` - Environment management
   - `inquirer` - Interactive CLI prompts
 
-## 📦 Installation
+ Installation
 
 ### 1. Clone the Repository
 
@@ -193,6 +193,7 @@ Contributions are welcome! Feel free to:
  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
